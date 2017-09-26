@@ -1,0 +1,11 @@
+C:\Users\admin\codefellows\401\lab11Gregory\lab11Gregory\lab11Gregory\bin\Debug\netcoreapp2.0\lab11Gregory.deps.json
+C:\Users\admin\codefellows\401\lab11Gregory\lab11Gregory\lab11Gregory\bin\Debug\netcoreapp2.0\lab11Gregory.runtimeconfig.json
+C:\Users\admin\codefellows\401\lab11Gregory\lab11Gregory\lab11Gregory\bin\Debug\netcoreapp2.0\lab11Gregory.runtimeconfig.dev.json
+C:\Users\admin\codefellows\401\lab11Gregory\lab11Gregory\lab11Gregory\bin\Debug\netcoreapp2.0\lab11Gregory.dll
+C:\Users\admin\codefellows\401\lab11Gregory\lab11Gregory\lab11Gregory\obj\Debug\netcoreapp2.0\lab11Gregory.csprojResolveAssemblyReference.cache
+C:\Users\admin\codefellows\401\lab11Gregory\lab11Gregory\lab11Gregory\obj\Debug\netcoreapp2.0\lab11Gregory.csproj.CoreCompileInputs.cache
+C:\Users\admin\codefellows\401\lab11Gregory\lab11Gregory\lab11Gregory\obj\Debug\netcoreapp2.0\lab11Gregory.AssemblyInfoInputs.cache
+C:\Users\admin\codefellows\401\lab11Gregory\lab11Gregory\lab11Gregory\obj\Debug\netcoreapp2.0\lab11Gregory.AssemblyInfo.cs
+C:\Users\admin\codefellows\401\lab11Gregory\lab11Gregory\lab11Gregory\bin\Debug\netcoreapp2.0\lab11Gregory.pdb
+C:\Users\admin\codefellows\401\lab11Gregory\lab11Gregory\lab11Gregory\obj\Debug\netcoreapp2.0\lab11Gregory.dll
+C:\Users\admin\codefellows\401\lab11Gregory\lab11Gregory\lab11Gregory\obj\Debug\netcoreapp2.0\lab11Gregory.pdb
