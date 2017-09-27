@@ -9,18 +9,31 @@ namespace lab11Gregory.Controllers
 {
     public class StudentsController
     {
-        public string Enrolled(string filepath)
+        public string Students()
         {
 
-            List<string> students =  DisplayStudentList(filepath);
-            foreach (string stu in students)
-            {
-                return stu;
-            }
+
             return $@"Here is a list of all the students enrolled at Codefellows. \n " +
-                    "To return to Home page, go to url and type /Home \n" +
-                    students;
+                    "To return to Home page, go to url and type /Home ";
         }
+
+        public string Register(string name, int? grade)
+        {
+            if (!String.IsNullOrEmpty(name))
+            {
+                string filePath = "RegisteredStudents.txt";
+                using (StreamWriter sw = File.AppendText(filePath))
+                {
+                    sw.Write(Environment.NewLine);
+                    sw.WriteLine(name, grade);
+
+                }
+            }
+            return ("\n \n To register, in URL type ?name=<name of student>&grade=<number of entering grade>\n \n" +
+                    $"Student Name: {name}\n" +
+                    $"Grade Regeistering for: {grade}");
+        }
+
         static List<string> DisplayStudentList(string filePath)
         {
             using (StreamReader sr = File.OpenText(filePath))
@@ -31,11 +44,7 @@ namespace lab11Gregory.Controllers
             }
         }
 
-        public string Faculty()
-        {
-            return ("Here is a list of the Faculty at Codefellows \n" +
-                    "This list is currently empty, please check back later.  \n \n" +
-                    "To retun to Home page, got to url and type /Home");
-        }
+
+
     }
 }

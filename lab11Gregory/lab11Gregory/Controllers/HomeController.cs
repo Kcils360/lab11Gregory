@@ -17,24 +17,13 @@ namespace lab11Gregory.Controllers
                    "For a list of Students, go to url and enter /Students/Enrolled \n \n" +
                    "For a list of Instructors, got to url and enter /Students/Faculty";
         }
-        public string Register(string name, int grade)
-        {
-            string filePath = "/RegisteredStudents.txt";
-            Console.WriteLine("Enter student's name");
-            string stuName = Console.ReadLine();
-            Console.WriteLine("Enter student's Grade (number please)");
-            int stuGrade = Convert.ToInt32(Console.ReadLine());
-            name = stuName;
-            grade = stuGrade;
-            using (StreamWriter sw = File.AppendText(filePath))
-            {
-                sw.Write(Environment.NewLine);
-                sw.WriteLine(stuName, stuGrade);
 
-            }
-            return ("\n \n To register, in URL type ?name=<name of student>&grade=<number of entering grade>\n \n" +
-                    $"Student Name: {name}\n" +
-                    $"Grade Regeistering for: {grade}");
+
+        public string Faculty()
+        {
+            return ("Here is a list of the Faculty at Codefellows \n" +
+                    "This list is currently empty, please check back later.  \n \n" +
+                    "To retun to Home page, got to url and type /Home");
         }
     }
 
