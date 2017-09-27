@@ -27,7 +27,7 @@ namespace lab11Gregory
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Error/Error");
             }
 
             app.UseMvc(route =>
